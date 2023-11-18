@@ -7,7 +7,7 @@ from score import Score
 screen = Screen()
 screen.setup(800, 600)
 screen.bgpic('bg.png')
-screen.title('Pong')
+screen.title('Ping Pong Game')
 screen.tracer(0)
 
 r_platform = Platform(350, 0)
